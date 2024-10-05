@@ -219,6 +219,6 @@ footer {
 
 /*makes responsive of video*/
 video {
-    width: 150%;
-    height: 100;
+    width: 100%;
+    height: 300px;
 }
