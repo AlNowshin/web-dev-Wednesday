@@ -1,14 +1,19 @@
 @media only screen and (max-width: 600px) {
-    .topnav a {
-        float:name;
-        width: 100%;
-        text-align: left;
-
-
+    #wrapper {
+        width: 100%; /* Full width on mobile */
+        height: auto; /* Auto height */
     }
-
-    .content{
-        padding: 10px;
+    #right-column, #left-column {
+        width: 100%; /* Full width for columns */
+        height: auto; 
+        float: none; /* Clear float */
     }
-
+    .content-section {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center;
+    }
+    .left-content, .right-content {
+        max-width: 100%; /* Full width for sections */
+        text-align: center; 
+    }
 }

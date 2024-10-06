@@ -1,9 +1,15 @@
 @media only screen and (mid-width: 601px) and (max-width: 1024px){
-    .topnav a{
-        float: left;
-        width: auto;
+    #wrapper {
+        width: 80%; /* Wider than mobile but still fluid */
+        height: auto; /* Auto height */
     }
-    content{
-        padding: 15 px;
+    #right-column {
+        width: 60%; /* Adjust right column width */
+    }
+    #left-column {
+        width: 40%; /* Adjust left column width */
+    }
+    .content-section {
+        flex-direction: row; /* Keep elements side by side */
     }
 }

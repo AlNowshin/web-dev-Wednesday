@@ -1,9 +1,14 @@
 @media only screen and (min-width: 1025px) {
-    .topnav a {
-        padding: 16px 20px;
+    #wrapper {
+        width: 960px; /* Fixed width for larger screens */
+        height: 800px; 
     }
-
-    .content{
-        padding: 20px;
+    #right-column {
+        width: 600px; /* original width */
+        height: 600px; /* Keep original height */
+    }
+    #left-column {
+        width: 360px; /* Keep original width */
+        height: 600px; /* Keep original height */
     }
 }

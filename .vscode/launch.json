@@ -8,8 +8,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "open homepg.html",
-            "file": "homepg.html"
+            "name": "open index.html",
+            "file": "index.html"
         }
     ]
 }  
