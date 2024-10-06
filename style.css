@@ -2,7 +2,8 @@
 /* The body tag style applies to all elements on the page */ 
 body 
 { 
-    background: linear-gradient(45deg,#2e8b57, #1f3f5f,rgb(88, 229, 172) );
+    background: linear-gradient(45deg,#2e8b57, #1f3f5f);
+    background: linear-gradient(45deg, #2e8b57, #1f3f5f, rgb(88, 229, 172));
     font-family: 'Times New Roman', Times, sans-serif; 
     padding: 0px; 
     margin: 0px; 
