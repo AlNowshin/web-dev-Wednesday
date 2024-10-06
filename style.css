@@ -185,15 +185,40 @@ footer {
     display: flex; /* This makes the children of the container flexible */
     justify-content: center; /* Center the items horizontally */
     align-items: flex-start;
-    padding: 20px; /* Adds padding around the container */
+    padding: 40px 20px; /* Adds padding around the container */
     flex-wrap: wrap; /* Allows wrapping to the next line if necessary */
 }
 
 .project {
     text-align: center; /* Center-aligns text below the images */
     margin: 10px; /* Adds margin for spacing between project boxes */
-    flex:1 1 200px;
+    flex: 1 1 200px;
     max-width: 250px;
+    padding-top: 40px;
+    padding-bottm: 20px;
+}
+
+.project img {
+    margin-top: 100px; /* Adjust this value to your liking */
+    margin-bottom: 10px;
+}
+
+.project p {
+    margin-top: 10px; /* Adds space between the image and the paragraph */
+}  
+
+.project a {
+    color: #00ff00; /* Change this to your desired color for links */
+    text-decoration: none; /* Optional: Remove underline from links */
+}
+
+.project a:hover {
+    color: #ff0000; 
+    text-decoration: underline; 
+}
+
+.project a:visited {
+    color: #0000ff; /* Change this to your desired color for visited links */
 }
 
 /*this container will hold the paragrpah and the video*/
